@@ -1,0 +1,123 @@
+
+/* Web-font Pairings for Gotham
+
+Sans-serif: Roboto, Open-sans, Circular, Poppins
+Serif: Minion, Rokkit, Playfair-Display */
+
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: rgb(0, 0, 0);
+}
+
+
+.header{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5px;
+    width: 60%;
+    height: 15%;
+    background-image: linear-gradient(to right , rgb(3, 35, 87),rgb(74, 96, 221));
+    border-radius: 0px 0px 50px 10px;
+    padding-right: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.brand{
+    display: block;
+    width: 40%;
+    height: 100%;
+    margin-left: 2%;
+    padding: 0;
+    /* background: red; */
+}
+
+.brand img{
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 75%;
+    /* background: yellow; */
+}
+
+
+.logos{
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* background: pink; */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.logo-link{
+    display: inline-block;
+    width: 20%;
+    height: 80%;
+    margin: 7px 5px;
+    /* background: green; */
+}
+
+.logo{
+    width: 80%;
+    height: 80%;
+    padding: 7px;
+    border-radius: 12px;
+}
+
+.date{
+    width: 100%;
+    height: 25%;
+    margin: 0;
+    margin-bottom: 35px;
+    padding: 0;
+    /* background :purple; */
+    color: #fff;
+    text-align: center;
+    font-weight : 550;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+@media screen and (max-width: 1200px){
+    .header{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .header{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .brand{
+        margin-left: 0px;
+    }
+    .brand img{
+        height: 70%;
+    }
+    .logo-link{
+        width: 30%;
+        /* background: green; */
+        margin:10px 5px;
+    }
+    .logo{
+        padding: 5px 5px;
+        border-radius: 10;
+        height: 80%;
+    }
+    .date{
+        line-height: 12px;
+        font-size: 10px;
+    }
+}
