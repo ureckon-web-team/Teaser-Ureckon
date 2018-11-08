@@ -24,9 +24,11 @@ html, body{
     position: fixed;
     top: 0;
     left: 0;
-    background-image: linear-gradient(to right , rgb(3, 35, 87),rgb(74, 96, 221));
-    border-radius: 0px 0px 50px 10px;
-    padding-right: 30px;
+/*    background-image: linear-gradient(to right , rgb(3, 35, 87),rgb(74, 96, 221));*/
+    background-image: linear-gradient(to left , rgb(10, 25, 49),rgb(26, 56, 228));
+
+    border-radius: 0px 0px 90px 10px;
+    padding-right: 0px;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -55,6 +57,7 @@ html, body{
     height: 100%;
     margin: 0;
     padding: 0;
+    margin-top: 10px;
     /* background: pink; */
     display: flex;
     align-content: center;
@@ -86,12 +89,26 @@ html, body{
     height: 25%;
     margin: 0;
     margin-bottom: 35px;
+    margin-top: -5px;
     padding: 0;
     /* background :purple; */
     color: #fff;
     text-align: center;
     font-weight : 550;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header-curve{
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    width: 41%;
+    height: 5%;
+    background-image: linear-gradient(to right  , rgb(10, 25, 49), rgb(46, 146, 228)); 
+    z-index: 1;
+    border-radius: 0px 0px 20px 0px;
 }
 
 /* Footer */
@@ -183,12 +200,17 @@ html, body{
     border-radius: 20px 0px 0px 0px;
 }
 
+
+
 @media screen and (max-width: 1200px){
     .header{
         width: 70%;
     }
     .footer{
         width: 50%;
+    }
+    .header-curve{
+        width: 30%;
     }
     .footer-curve{
         width: 52%;
@@ -199,6 +221,12 @@ html, body{
 }
 
 @media screen and (max-width: 940px){
+    .header {
+        width: 60%;
+    }
+    .header-curve{
+        width: 40%;
+    }
     .footer{
         width: 60%;
     }
@@ -211,6 +239,13 @@ html, body{
 }
 
 @media screen and (max-width: 768px){
+    .header {
+        width: 100%;
+        border-radius: 0px 0px 50px 50px;
+    }
+    .header-curve{
+        width: 0%;
+    }
     .footer{
         width: 100%;
         border-radius: 50px 50px 0px 0px;
@@ -224,11 +259,13 @@ html, body{
 }
 
 @media screen and (max-width: 800px){
+/*
     .header{
         width: 100%;
         padding-right: 0px;
         border-radius: 0px 0px 50px 50px;
     }
+*/
     .brand{
         margin-left: 0px;
     }
