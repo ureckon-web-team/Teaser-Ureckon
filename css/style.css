@@ -1,10 +1,10 @@
-
 /* Web-font Pairings for Gotham
 
 Sans-serif: Roboto, Open-sans, Circular, Poppins
 Serif: Minion, Rokkit, Playfair-Display */
 
-html, body{
+html,
+body {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -15,13 +15,13 @@ html, body{
 
 /* Background */
 
-#bg-container{
+#bg-container {
     z-index: -1;
 }
 
 /* Header */
 
-.header{
+.header {
     margin: 0;
     padding: 0;
     padding-bottom: 5px;
@@ -30,7 +30,7 @@ html, body{
     position: fixed;
     top: 0;
     left: 0;
-    background-image: linear-gradient(to right , rgb(3, 35, 87),rgb(74, 96, 221));
+    background-image: linear-gradient(to right, rgb(3, 35, 87), rgb(74, 96, 221));
     border-radius: 0px 0px 50px 10px;
     padding-right: 30px;
     display: flex;
@@ -41,7 +41,7 @@ html, body{
     /* visibility: hidden; */
 }
 
-.brand{
+.brand {
     display: block;
     width: 40%;
     height: 100%;
@@ -50,7 +50,7 @@ html, body{
     /* background: red; */
 }
 
-.brand img{
+.brand img {
     display: block;
     margin: 0;
     width: 100%;
@@ -58,7 +58,7 @@ html, body{
     /* background: yellow; */
 }
 
-.logos{
+.logos {
     width: 50%;
     height: 100%;
     margin: 0;
@@ -70,15 +70,20 @@ html, body{
     flex-direction: row;
 }
 
-.logo-link{
+.logo-link {
     display: inline-block;
-    width: 20%;
-    height: 80%;
-    margin: 7px 5px;
+
+    width: 30%;
+    height: 90%;
+    margin: 15px 5px;
     /* background: rgb(14, 228, 228); */
 }
 
-.logo{
+.logos img {
+    filter: brightness(0) invert(1);
+}
+
+.logo {
     width: 80%;
     height: 80%;
     padding: 7px;
@@ -86,20 +91,21 @@ html, body{
     /* background: red; */
 }
 
-.date{
+.date {
     width: 100%;
     height: 25%;
     margin: 0;
     margin-bottom: 35px;
+    margin-top: -10px;
     padding: 0;
     /* background :purple; */
     color: #fff;
     text-align: center;
-    font-weight : 550;
+    font-weight: 550;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.header-curve{
+.header-curve {
     position: fixed;
     top: 0;
     right: 0;
@@ -107,21 +113,21 @@ html, body{
     padding: 0;
     width: 41%;
     height: 8%;
-    background-image: linear-gradient(to right  ,rgb(74, 96, 221), rgb(10, 25, 49) ); 
+    background-image: linear-gradient(to right, rgb(74, 96, 221), rgb(10, 25, 49));
     z-index: 1;
     border-radius: 0px 0px 20px 0px;
 }
 
 /* Footer */
 
-.footer{
+.footer {
     position: fixed;
     bottom: 0;
     /* visibility: hidden; */
-    right:0;
+    right: 0;
     width: 40%;
-    height:10%;
-    background-image: linear-gradient(to right , rgb(10, 25, 49),rgb(26, 56, 228));
+    height: 10%;
+    background-image: linear-gradient(to right, rgb(10, 25, 49), rgb(26, 56, 228));
     border-radius: 90px 10px 0 0;
     display: flex;
     align-content: center;
@@ -130,7 +136,7 @@ html, body{
     z-index: 2;
 }
 
-.socials{
+.socials {
     width: 50%;
     height: 100%;
     /* background: green; */
@@ -139,7 +145,7 @@ html, body{
     padding: 0;
 }
 
-.socials *{
+.socials * {
     display: inline-block;
     margin: 20px 1px;
     /* background: yellow; */
@@ -149,19 +155,19 @@ html, body{
     font-size: 14px;
 }
 
-.socials a:hover{
+.socials a:hover {
     color: rgb(230, 11, 77);
 }
 
-.socials p{
+.socials p {
     font-weight: bold;
 }
 
-.social a:first-child{
+.social a:first-child {
     font-weight: bold;
 }
 
-.clg-links{
+.clg-links {
     width: 50%;
     height: 100%;
     /* background: blue; */
@@ -170,7 +176,7 @@ html, body{
     padding: 0;
 }
 
-.clg-links *{
+.clg-links * {
     display: inline-block;
     margin: 20px 4px;
     padding: 0;
@@ -181,15 +187,15 @@ html, body{
     font-size: 14px;
 }
 
-.clg-links p{
+.clg-links p {
     font-weight: bold;
 }
 
-.clg-links a:hover{
+.clg-links a:hover {
     border-bottom: 2px solid #fff;
 }
 
-.footer-curve{
+.footer-curve {
     position: fixed;
     /* visibility: hidden; */
     bottom: 0;
@@ -198,97 +204,118 @@ html, body{
     padding: 0;
     width: 62%;
     height: 4%;
-    background-image: linear-gradient(to left  , rgb(10, 25, 49), rgb(46, 146, 228)); 
+    background-image: linear-gradient(to left, rgb(10, 25, 49), rgb(46, 146, 228));
     z-index: 1;
     border-radius: 20px 0px 0px 0px;
 }
 
-@media screen and (max-width: 1200px){
-    .header{
+@media screen and (max-width: 1200px) {
+    .header {
         width: 70%;
     }
-    .footer{
+
+    .footer {
         width: 50%;
     }
-    .footer-curve{
+
+    .footer-curve {
         width: 52%;
     }
-    .clg-links *, .socials *{
+
+    .clg-links *,
+    .socials * {
         font-size: 14px;
     }
 }
 
-@media screen and (max-width: 940px){
-    .footer{
+@media screen and (max-width: 940px) {
+    .footer {
         width: 60%;
     }
-    .header-curve{
+
+    .header-curve {
         width: 40%;
     }
-    .footer-curve{
+
+    .footer-curve {
         width: 42%;
     }
-    .clg-links *, .socials *{
+
+    .clg-links *,
+    .socials * {
         font-size: 12px;
     }
-    .socials p{
+
+    .socials p {
         display: none;
     }
 }
 
-@media screen and (max-width: 768px){
-    .footer{
+@media screen and (max-width: 768px) {
+    .footer {
         width: 100%;
         border-radius: 50px 50px 0px 0px;
     }
-    .header-curve{
+
+    .header-curve {
         width: 0%;
     }
-    .footer-curve{
+
+    .footer-curve {
         width: 0%;
     }
-    .clg-links *, .socials *{
+
+    .clg-links *,
+    .socials * {
         font-size: 12px;
     }
 }
 
-@media screen and (max-width: 800px){
-    .header{
+@media screen and (max-width: 800px) {
+    .header {
         width: 100%;
         padding-right: 0px;
         border-radius: 0px 0px 50px 50px;
     }
-    .brand{
+
+    .brand {
         margin-left: 0px;
     }
-    .brand img{
+
+    .brand img {
         height: 70%;
     }
-    .logo-link{
+
+    .logo-link {
         width: 30%;
         /* background: green; */
-        margin:10px 5px;
+        margin: 10px 5px;
     }
-    .logo{
+
+    .logo {
         padding: 5px 5px;
         border-radius: 10;
         height: 80%;
     }
-    .date{
+
+    .date {
         line-height: 12px;
         font-size: 10px;
     }
 }
 
-@media screen and (max-width: 320px){
-    .socials *, .clg-links *{
+@media screen and (max-width: 320px) {
+
+    .socials *,
+    .clg-links * {
         margin: 20px 2px;
     }
-    .social{
+
+    .social {
         width: 60%;
     }
-    .clg-links{
+
+    .clg-links {
         width: 40%;
     }
 }
-
