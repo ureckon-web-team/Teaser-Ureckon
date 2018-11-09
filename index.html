@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,26 +11,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
+
+    <div id="bg-container"></div>
+
+    <div class="bg"></div>
+
     <header class="header">
         <div class="brand">
             <img src="assets/img/svgs/logo_with_wordmark_sky.svg" alt="">
             <p class="date">11-12<sup>th</sup> January 2019</p>
         </div>
         <div class="logos">
-            <a href="https://uem.edu.in/uem-kolkata/" class="logo-link"><img src="./assets/img/uem.jpg" alt="Uem" class="logo"></a>
+            <a href="https://uem.edu.in/uem-kolkata/" class="logo-link"><img src="./assets/img/uem.jpg" alt="Uem"   class="logo"></a>
             <a href="https://www.isro.gov.in/" class="logo-link"><img src="./assets/img/isro.jpg" alt="Isro" class="logo"></a>
-            <a href="http://iem.edu.in/" class="logo-link"><img src="./assets/img/iem.png" alt="Iem" class="logo"></a>
+            <a href="http://iem.edu.in/" class="logo-link"><img src="./assets/img/iem.png" alt="Iem"   class="logo"></a>
         </div>
-        <section class="header-curve"></section>
     </header>
 
+    <section class="header-curve"></section>
 
     <footer class="footer">
         <div class="socials">
             <a href="#about_modal" class="modal-trigger">About Us</a>
-            <p>Follow Us:</p>
+            <p>Follow Us</p>
             <a href="" class=" modal-trigger fab fa-facebook-f "></a>
             <a href="" class="fab fa-instagram  "></a>
         </div>
@@ -44,34 +47,32 @@
 
     <!-- About Modal -->
     <div id="about_modal" class="modal modal-fixed-footer">
-        <div class="modal-content">
-            <div class="container">
+      <div class="modal-content">
+        <div class="container">
                 <h4>About Us</h4>
-                <p>University of Engineering &amp; Management, Kolkata in association with Indian Space Research Organisation(ISRO), Kolkata and Institute of Engineering &amp; Management, Kolkata is organising its 1st annual Techno-Management festival-“URECKON 2019”. Students and tech enthusiasts from various corners of the country are wholeheartedly invited to showcase their innovations, ingenuity and teamwork here. Also, URECKON will be exhibiting application based robots along with ISRO, Kolkata. URECKON presents several Scientific Models, Robotic events, Coding events, B-events, Guest lectures, Tech Talks, Workshops and many more.
-
-                    URECKON is an opportunity for the young minds to showcase their own creations, techniques and plans in most of the fields of technology and management. Along with the academic events, we also present exciting gaming events too. We are proud to announce the different events on various domains to glorify our festivals.</p>
-            </div>
+                <p>University of Engineering & Management, Kolkata in association with Indian Space Research Organisation(ISRO), Kolkata and Institute of Engineering & Management, Kolkata is organising its annual Techno-Management festival-“URECKON 2019”. Students and tech enthusiasts from various corners of the country are wholeheartedly invited to showcase their innovations, ingenuity and teamwork here. Also, URECKON will be exhibiting application based robots along with ISRO, Kolkata. URECKON presents several Scientific Models, Robotic events, Coding events, B-events, Guest lectures, Tech Talks, Workshops and many more.
+        
+                URECKON is an opportunity for the young minds to showcase their own creations, techniques and plans in most of the fields of technology and management. Along with the academic events, we also present exciting gaming events too. We are proud to announce the different events on various domains to glorify our festivals.</p>
         </div>
-        <div class="modal-footer">
-            <a href="" class="modal-close waves-effect btn red">Close</a>
-        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="" class="modal-close waves-effect btn red">Close</a>
+      </div>
     </div>
 
     <section class="footer-curve"></section>
 
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="main.js"></script>
     <script>
-        $(document).ready(function() {
+        $(document).ready(function(){
             $('.modal').modal();
         });
-
     </script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.sound.js"></script> -->
-    <!-- <script src="teaser.js"></script> -->
-    <!-- <script src="video.js"></script> -->
 </body>
-
 </html>
