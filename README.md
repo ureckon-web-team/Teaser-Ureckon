@@ -6,5 +6,6 @@ Ureckon is the Annual Techno-Management festival of University of Engineering an
 <br>
 <br>The Coming Soon Page is Coming Soon. XD.<br>
 <br><a href="https://yands03.github.io/Teaser-Ureckon/">Demo Page.</a>
+<br><br><strong> If you change browser size to check responsiveness, make sure you reload the page</strong>
 <br><br>
 Meanwhile, Check out University of Engineering and Management. <a href="https://uem.edu.in/uem-kolkata/">VISIT UEM</a>
