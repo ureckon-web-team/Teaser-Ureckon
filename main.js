@@ -49,14 +49,14 @@ function preload(){
     if(navigator.userAgent.indexOf("Chrome") != -1 ){
         logo.img = loadImage('assets/img/svgs/logo_icon_sky.svg', 
         function(){console.log('loaded');});
-        clock = loadSound('assets/sounds/clock-effect.mp3', 
-        function(){clock.loop()});
+        
     }
     else if(navigator.userAgent.indexOf("Firefox") != -1) {
         logo.img = loadImage('assets/img/pngs/logo_icon_cobalt.png', 
         function(){console.log('loaded');});
     } 
-     
+    clock = loadSound('assets/sounds/clock-effect.mp3', 
+    function(){clock.loop()});
     
 }
 
