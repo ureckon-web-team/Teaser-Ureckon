@@ -292,4 +292,3 @@ function update() {
     // aVelocity *= damping;
 }
 
-
