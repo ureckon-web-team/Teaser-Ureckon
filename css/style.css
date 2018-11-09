@@ -75,7 +75,7 @@ html, body{
     width: 20%;
     height: 80%;
     margin: 7px 5px;
-    /* background: green; */
+    /* background: rgb(14, 228, 228); */
 }
 
 .logo{
@@ -134,19 +134,19 @@ html, body{
     width: 50%;
     height: 100%;
     /* background: green; */
-    text-align: center;
+    text-align: right;
     margin: 0;
     padding: 0;
 }
 
 .socials *{
     display: inline-block;
-    margin: 20px 5px;
+    margin: 20px 1px;
     /* background: yellow; */
     text-decoration: none;
     color: #fff;
     padding: 5px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .socials a:hover{
@@ -162,23 +162,23 @@ html, body{
 }
 
 .clg-links{
-    width: 40%;
+    width: 50%;
     height: 100%;
     /* background: blue; */
-    text-align: center;
+    text-align: left;
     margin: 0;
     padding: 0;
 }
 
 .clg-links *{
     display: inline-block;
-    margin: 20px 5px;
+    margin: 20px 4px;
     padding: 0;
     /* background: yellow; */
     text-decoration: none;
     color: #fff;
     padding: 5px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .clg-links p{
@@ -214,7 +214,7 @@ html, body{
         width: 52%;
     }
     .clg-links *, .socials *{
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
@@ -229,7 +229,7 @@ html, body{
         width: 42%;
     }
     .clg-links *, .socials *{
-        font-size: 14px;
+        font-size: 12px;
     }
     .socials p{
         display: none;
@@ -283,6 +283,12 @@ html, body{
 @media screen and (max-width: 320px){
     .socials *, .clg-links *{
         margin: 20px 2px;
+    }
+    .social{
+        width: 60%;
+    }
+    .clg-links{
+        width: 40%;
     }
 }
 

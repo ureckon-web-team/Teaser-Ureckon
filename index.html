@@ -33,15 +33,16 @@
 
     <footer class="footer">
         <div class="socials">
-            <a href="#about_modal" class="modal-trigger">About Us</a>
-            <p>Follow Us</p>
-            <a href="" class=" modal-trigger fab fa-facebook-f "></a>
-            <a href="" class="fab fa-instagram  "></a>
+            <a href="#about_modal" class="modal-trigger">About </a>
+            <a href="#contact_modal" class="modal-trigger">Contact </a>
+            <!-- <p>Follow Us</p> -->
+            <a href="https://www.facebook.com/ureckon.uemk" class="fab fa-facebook-f "></a>
+            <a href="https://instagram.com/ureckon.uemk" class="fab fa-instagram"></a>
         </div>
         <div class="clg-links">
             <p>Visit:</p>
-            <a href="" class="clg-link-ca">CA</a>
-            <a href="" class="clg-link-uosc">UOSC</a>
+            <a href="" class="clg-link-ca tooltipped"  data-position="top" data-tooltip="CA Portal">CA</a>
+            <a href="" class="clg-link-uosc tooltipped" data-position="top" data-tooltip="UOSC Portal">UOSC</a>
         </div>
     </footer>
 
@@ -50,15 +51,34 @@
       <div class="modal-content">
         <div class="container">
                 <h4>About Us</h4>
-                <p>University of Engineering & Management, Kolkata in association with Indian Space Research Organisation(ISRO), Kolkata and Institute of Engineering & Management, Kolkata is organising its annual Techno-Management festival-“URECKON 2019”. Students and tech enthusiasts from various corners of the country are wholeheartedly invited to showcase their innovations, ingenuity and teamwork here. Also, URECKON will be exhibiting application based robots along with ISRO, Kolkata. URECKON presents several Scientific Models, Robotic events, Coding events, B-events, Guest lectures, Tech Talks, Workshops and many more.
-        
-                URECKON is an opportunity for the young minds to showcase their own creations, techniques and plans in most of the fields of technology and management. Along with the academic events, we also present exciting gaming events too. We are proud to announce the different events on various domains to glorify our festivals.</p>
+                <p>UEM Kolkata was established in the year 2014 by Act No 25 of 2014 of Govt of West Bengal and approved by AICTE. The institute has stood one out of the top 10 institutes of India including all IITs and all NITs of the country in the NPTEL program ranked by IIT Kharagpur and IIT Chennai. It is one of the most premiere institutes of Eastern India.
+                    University of Engineering & Management Kolkata in association with ISRO ( Indian Space Research Organization) is organizing it’s annual techno-management festival “URECKON” since 2018. It is a seed which has already turned into a steady sapling with it’s roots being firm enough to yield bigger fruits.
+                    Every year it gets Bigger and Better, with more exciting events as well as exhibitions. Students and tech enthusiasts from various parts of the country are wholeheartedly invited to be a part of this budding Techno-Management fest, not only to show case their talents but also considering it as a field to learn something new. URECKON in association with ISRO exhibits several application based robots and also hosts several events based on Robotics, Coding, B-plan, Quizzes, Guest lectures, Tech talks as exciting gaming events with lucrative prizes to be won. 
+                    URECKON is an excellent platform for young minds to perform and excel in fields of not only technology but in business too. Exciting events along with exciting prizes are up for grabs every year, along with tons of experience to be gathered for enriching our limited pools of knowledge. So fasten up your shoe laces and buckle up your belt to attend URECKON because this year it will be bigger and better. <br><br>
+                    Don't Forget to check UEM Campus Ambassador(CA) and Ureckon Open School Challenge(UOSC). Links are provided below.
+                    </p>
         </div>
       </div>
       <div class="modal-footer">
         <a href="" class="modal-close waves-effect btn red">Close</a>
       </div>
     </div>
+
+    <!-- Contact Modal -->
+    <div id="contact_modal" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <h5>For Collaborations</h5>
+                <p class="flowtext">Email Us at: <strong>collaborations@ureckon.org</strong></a>
+                <h5>For General Queries</h5>
+                <p class="flowtext">Email Us at: <strong>contact@ureckon.org</strong></a>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <a href="" class="modal-close waves-effect btn red">Close</a>
+        </div>
+      </div>
 
     <section class="footer-curve"></section>
 
@@ -70,6 +90,7 @@
     <script>
         $(document).ready(function(){
             $('.modal').modal();
+            $('.tooltipped').tooltip();
         });
     </script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.js"></script>
