@@ -44,8 +44,16 @@ function Point(){
 var points = [];
 
 function preload(){
-    logo.img = loadImage('assets/img/svgs/logo_icon_sky.svg', 
-    function(){console.log('loaded');});
+    // Browser Support Check.
+    if(navigator.userAgent.indexOf("Chrome") != -1 ){
+        logo.img = loadImage('assets/img/svgs/logo_icon_sky.svg', 
+        function(){console.log('loaded');});
+    }
+    else if(navigator.userAgent.indexOf("Firefox") != -1) {
+        logo.img = loadImage('assets/img/pngs/logo_icon_cobalt.png', 
+        function(){console.log('loaded');});
+    } 
+    
 }
 
 function setup(){
