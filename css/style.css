@@ -137,7 +137,7 @@ body {
 }
 
 .socials {
-    width: 50%;
+    width: 40%;
     height: 100%;
     /* background: green; */
     text-align: right;
@@ -189,6 +189,11 @@ body {
 
 .clg-links p {
     font-weight: bold;
+}
+
+.clg-links a:first-child:hover, .clg-links a:nth-child(2):hover{
+    color: rgb(230, 11, 77);
+    border-bottom: none;
 }
 
 .clg-links a:hover {
@@ -311,11 +316,13 @@ body {
         margin: 20px 2px;
     }
 
-    .social {
-        width: 60%;
+    .socials{
+        text-align: right;
+        width: 50%;
     }
 
-    .clg-links {
-        width: 40%;
+    .clg-links{
+        text-align: center;
     }
+    
 }
